@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "420884009139",
-    "firebase_url": "https://ubhack2020.firebaseio.com",
-    "project_id": "ubhack2020",
-    "storage_bucket": "ubhack2020.appspot.com"
+    "project_number": "539135685632",
+    "firebase_url": "https://firestore-tutorial-d9c23.firebaseio.com",
+    "project_id": "firestore-tutorial-d9c23",
+    "storage_bucket": "firestore-tutorial-d9c23.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:420884009139:android:4c8da608559bb20270a0c6",
+        "mobilesdk_app_id": "1:539135685632:android:3480782a2aafdef35154e5",
         "android_client_info": {
           "package_name": "com.example.ubhack2020"
         }
       },
       "oauth_client": [
         {
-          "client_id": "420884009139-n4cbcibcrb89q87tv677jr3sn5nl3vl4.apps.googleusercontent.com",
+          "client_id": "539135685632-gtaoamf2vehol59d58f0189rto1tk5e7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB_5dkGnxT9aEZnGa-oNZr46ca-5CAc-I0"
+          "current_key": "AIzaSyCIoAiDBiceLw84au-bn4Iaij7eAwyti1Y"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "420884009139-n4cbcibcrb89q87tv677jr3sn5nl3vl4.apps.googleusercontent.com",
+              "client_id": "539135685632-gtaoamf2vehol59d58f0189rto1tk5e7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

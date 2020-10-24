@@ -20,6 +20,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mButton = findViewById(R.id.enter);
 
+       //DB code here
+       
+       
+       
         mButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 mEdit = findViewById(R.id.editText);
