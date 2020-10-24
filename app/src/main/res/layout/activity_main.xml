@@ -10,17 +10,35 @@
         android:id="@+id/editText"
         android:layout_width="380dp"
         android:layout_height="53dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="85dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="355dp"
-        android:layout_height="538dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="162dp" />
+        android:layout_width="367dp"
+        android:layout_height="417dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="101dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="14dp"
+        android:text="Enter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
