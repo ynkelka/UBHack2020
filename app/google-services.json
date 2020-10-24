@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "420884009139",
+    "firebase_url": "https://ubhack2020.firebaseio.com",
+    "project_id": "ubhack2020",
+    "storage_bucket": "ubhack2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420884009139:android:4c8da608559bb20270a0c6",
+        "android_client_info": {
+          "package_name": "com.example.ubhack2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420884009139-n4cbcibcrb89q87tv677jr3sn5nl3vl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_5dkGnxT9aEZnGa-oNZr46ca-5CAc-I0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420884009139-n4cbcibcrb89q87tv677jr3sn5nl3vl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
