@@ -16,21 +16,16 @@ public class MainActivity extends AppCompatActivity {
     EditText mEdit;
     TextView mText;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String[] arraySpinner = new String[] {
-                "Ratings", "Tags", "Ingredients"
-        };
-        Spinner s = (Spinner) findViewById(R.id.spinner);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_spinner_item, arraySpinner);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        s.setAdapter(adapter);
-
         mButton = findViewById(R.id.enter);
+
+        //DB code here
+
+
+
         mButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 mEdit = findViewById(R.id.editText);
@@ -39,12 +34,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
+        String[] arraySpinner = new String[] {
+                "Ingredients Inclusive", "Ingredients Exclusive", "Cuisine"
+        };
+        Spinner s = (Spinner) findViewById(R.id.spinner);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_spinner_item, arraySpinner);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        s.setAdapter(adapter);
     }
-
-
-
-
-
-
 }
