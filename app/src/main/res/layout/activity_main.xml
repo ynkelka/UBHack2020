@@ -11,34 +11,48 @@
         android:layout_width="380dp"
         android:layout_height="53dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="367dp"
-        android:layout_height="417dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="102dp"
+        android:layout_width="365dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="103dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enter" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/enter"
         android:layout_width="101dp"
         android:layout_height="51dp"
-        android:layout_marginStart="294dp"
-        android:layout_marginTop="14dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="64dp"
         android:text="Enter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="159dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
