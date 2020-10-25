@@ -27,10 +27,10 @@ android {
 dependencies {
 
     // Import the Firebase BoM
-  implementation platform('com.google.firebase:firebase-bom:25.12.0')
+    implementation platform('com.google.firebase:firebase-bom:25.12.0')
 
-  // Add the dependencies for the desired Firebase products
-  // https://firebase.google.com/docs/android/setup#available-libraries
+    // Add the dependencies for the desired Firebase products
+    // https://firebase.google.com/docs/android/setup#available-libraries
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
