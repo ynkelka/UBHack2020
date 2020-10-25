@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         String[] arraySpinner = new String[] {
                 "Ingredients Inclusive", "Ingredients Exclusive", "Cuisine"
         };
-        Spinner s = (Spinner) findViewById(R.id.spinner);
+        final Spinner s = (Spinner) findViewById(R.id.spinner);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, arraySpinner);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -43,10 +43,12 @@ public class MainActivity extends AppCompatActivity {
         mButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
+
+                String message = s.getSelectedItem().toString();
                 mEdit = findViewById(R.id.editText);
                 mText = findViewById(R.id.textView2);
                 mText.setText(mEdit.getText());
-                String msg = mEdit.getText().toString();
+                String[] msg = {mEdit.getText().toString(), message};
                 Intent intent = new Intent(MainActivity.this, RecipeActivity.class);
                 intent.putExtra("com.example.ubhack2020.MSG",msg);
 

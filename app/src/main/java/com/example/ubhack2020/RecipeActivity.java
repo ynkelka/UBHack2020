@@ -14,11 +14,9 @@ public class RecipeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipe);
-        String msg = getIntent().getStringExtra("com.example.ubhack2020.MSG");
+        String[] msg = getIntent().getStringArrayExtra("com.example.ubhack2020.MSG");
         TextView txt = (TextView) findViewById(R.id.rec);
-        txt.setText(msg);
-
-
+        txt.setText(msg[0]+ msg[1]);
 
     }
 
