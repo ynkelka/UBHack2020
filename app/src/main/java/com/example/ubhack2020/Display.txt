@@ -1,0 +1,5 @@
+Add Lib dependency => Recycler/SupportRecyclerView
+
+RecyclerView - MatchParent(width/height)
+
+https://youtu.be/eCfJMseN0-8?t=577 

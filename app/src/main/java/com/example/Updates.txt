@@ -1,0 +1,8 @@
+Food.java
+Ingredients.java
+FirebaseHelper.java
+Build.gradle
+RecyclerViewConfig.java
+FoodListActivity.java
+
+Possibly error is view b/c of naming. See food for naming
